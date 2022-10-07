@@ -4,9 +4,8 @@ public class ex3 {
 	
 	private double num1;
 	private double num2;
-	
-	
-	
+	private double resultadosoma;
+
 	
 	public double getNum1() {
 		return num1;
@@ -21,9 +20,15 @@ public class ex3 {
 		this.num2 = num2;
 	}
 	
+	public double getResultadosoma() {
+		return resultadosoma;
+	}
+	public void setResultadosoma(double resultadosoma) {
+		this.resultadosoma = num1+ num2;
+	}
 	
-	public double Soma() {			
-		double Soma;
-		return Soma = num1 +num2;
+	
+	public void SomaValores() {			
+		this.setResultadosoma(this.getNum1() +this.getNum2());
 	}
 }

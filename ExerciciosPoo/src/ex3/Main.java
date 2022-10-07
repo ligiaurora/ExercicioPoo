@@ -16,11 +16,7 @@ public class Main {
 		n2.setNum2(entrada.nextDouble());
 		
 		
-		
 		entrada.close();
 		
-	}
-	
-	
-	
+	}	
 }
