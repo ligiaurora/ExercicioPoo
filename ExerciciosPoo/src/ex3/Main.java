@@ -6,23 +6,15 @@ public class Main {
 		
 		Scanner entrada = new Scanner(System.in);
 		
-		ex3 n1 = new ex3();
-		System.out.print("Informe o valor de primeiro número:");
-		n1.setNum1(entrada.nextDouble());
+		ex3 soma = new ex3(2,2);
+		ex3 subtracao = new ex3(535,45);
+		ex3 multiplicacao = new ex3(896,9440);
+		ex3 divisao = new ex3(985,45);
 		
-		
-		ex3 n2 = new ex3();
-		System.out.print("Informe o valor de um segundo número:");
-		n2.setNum2(entrada.nextDouble());
-		
-		
-		System.out.println("O valor da Soma:");
-		System.out.println("O valor da Subtração:");
-		System.out.println("O valor da Multiplicação:");
-		System.out.println("O valor da Divisão:");
-		
-		
-		
+		System.out.println("O valor da Soma:" + soma.getSoma());
+		System.out.println("O valor da Subtracao:" + subtracao.getSubtracao());
+		System.out.println("O valor da Multiplicacao:" + multiplicacao.getMultiplicacao());
+		System.out.println("O valor da Divisao:" + divisao.getDivisao());
 		entrada.close();
 		
 	}	
