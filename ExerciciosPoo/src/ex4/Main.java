@@ -9,9 +9,9 @@ public class Main {
 		Scanner entrada = new Scanner(System.in);
 		
 		//ex1 nc = new ex1();
-		System.out.print("Informe o seu nome:");
+		System.out.print("Quanto você ganha por hora?");
 		//nc.setNome(entrada.next());
-		System.out.print("Informe o seu sobrenome:");
+		System.out.print("Digite o número de horas trabalhadas por mês:");
 		//nc.setSobrenome(entrada.next());
 		
 		
