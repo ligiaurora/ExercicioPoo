@@ -12,8 +12,15 @@ public class Main {
 		
 		
 		ex3 n2 = new ex3();
-		System.out.print("Informe o valor de um segundo número: ");
+		System.out.print("Informe o valor de um segundo número:");
 		n2.setNum2(entrada.nextDouble());
+		
+		
+		System.out.println("O valor da Soma:");
+		System.out.println("O valor da Subtração:");
+		System.out.println("O valor da Multiplicação:");
+		System.out.println("O valor da Divisão:");
+		
 		
 		
 		entrada.close();
